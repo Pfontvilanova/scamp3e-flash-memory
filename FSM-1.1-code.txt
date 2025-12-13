@@ -50,9 +50,9 @@ create v-buffer 768 allot \ vocabulary table
              1 v-buffer ix 32 * + 16 + c! \ mark active
              ix v-buffer ix 32 * + 17 + c! \ mark index
              write-v-table 
-           ( ix v-init ) unloop exit
-                       else cr ." voc:" ix . ." occupied" 
-                       then 
+             unloop exit
+          else cr ." voc:" ix . ." occupied" 
+          then 
        loop
   ." no space for more vocabularies" cr ;
 
@@ -439,5 +439,6 @@ true value debug
 : debugon true to debug ;
 : debugoff false to debug ;
 }
+
 
 
