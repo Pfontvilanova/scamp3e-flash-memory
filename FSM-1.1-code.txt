@@ -1,6 +1,6 @@
 \ **************************************************************
-\ *               SISTEMA DE FITCHERS PER MEMORIA EXTERNA
-\ *                     FLASHFORT AMB SCAMP3e
+\ *               SISTEMA DE FITXERS PER MEMORIA EXTERNA
+\ *                     FLASHFORTH AMB SCAMP3e
 \ *
 \ *   ( File system manager for scamp3e external memory)
 \**************************************************************
@@ -439,4 +439,5 @@ true value debug
 : debugon true to debug ;
 : debugoff false to debug ;
 }
+
 
